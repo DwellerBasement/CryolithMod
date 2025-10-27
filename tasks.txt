@@ -1,0 +1,14 @@
+- Add ai to boss
+- sprites 
+- bestiary
+- localalization
+- music for boss
+- descripion
+
+
+upd 2
+- bomb gun
+- sack o stuff accesorie
+- plant fibre whip and set
+- stone set and tiles
+- sky soruce bag/relic
