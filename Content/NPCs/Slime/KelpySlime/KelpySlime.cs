@@ -4,7 +4,7 @@ using Terraria.GameContent.Bestiary;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader.Utilities;
-using Cryolith.Content.Items.Materials.PlantFibre;
+using Cryolith.Content.Items.Materials.PlantFibres;
 
 namespace Cryolith.Content.NPCs.Slime.KelpySlime
 {
@@ -58,7 +58,7 @@ namespace Cryolith.Content.NPCs.Slime.KelpySlime
             if (spawnInfo.Player.ZoneBeach)
             {
 
-                return baseChance * 1.2f;
+                return baseChance * 1.09f;
             }
 
             return 0f;
