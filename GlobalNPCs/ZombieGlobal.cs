@@ -1,4 +1,4 @@
-using Cryolith.Content.Items.Materials.PlantFibre;
+using Cryolith.Content.Items.Materials.PlantFibres;
 using Terraria;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
@@ -13,7 +13,7 @@ namespace Cryolith.GlobalNPCs
 			if (npc.type == NPCID.Zombie)
 			{
 				int myItemType = ModContent.ItemType<PlantFibre>(); 
-				npcLoot.Add(ItemDropRule.Common(myItemType, 2, 0, 3)); 
+				npcLoot.Add(ItemDropRule.Common(myItemType, 4, 0, 3)); 
 			}
 		}
 	}
