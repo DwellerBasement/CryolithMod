@@ -4,7 +4,7 @@ using Terraria.GameContent.Bestiary;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader.Utilities;
-using Cryolith.Content.Items.Materials.PlantFibre;
+using Cryolith.Content.Items.Materials.PlantFibres;
 
 namespace Cryolith.Content.NPCs.Slime.ForestSlime
 {
@@ -54,7 +54,7 @@ namespace Cryolith.Content.NPCs.Slime.ForestSlime
             if (spawnInfo.Player.ZoneForest)
             {
 
-                return baseChance * 1.2f;
+                return baseChance * 1.09f;
             }
 
             return 0f;
