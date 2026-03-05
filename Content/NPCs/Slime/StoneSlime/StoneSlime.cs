@@ -1,10 +1,9 @@
 using Terraria;
-using Terraria.ModLoader;
+using Terraria.ModLoader;                   
 using Terraria.GameContent.Bestiary;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader.Utilities;
-using Cryolith.Content.Items.Materials.PlantFibre;
 
 namespace Cryolith.Content.NPCs.Slime.StoneSlime
 {
@@ -28,8 +27,8 @@ namespace Cryolith.Content.NPCs.Slime.StoneSlime
         public override void SetDefaults()
         {
             NPC.CloneDefaults(NPCID.BlueSlime);
-            NPC.damage = 13;
-            NPC.defense = 2;
+            NPC.damage = 15;
+            NPC.defense = 3;
             NPC.lifeMax = 27;
 
             AIType = NPCID.BlueSlime;
@@ -53,7 +52,7 @@ namespace Cryolith.Content.NPCs.Slime.StoneSlime
             if (spawnInfo.Player.ZoneNormalUnderground || spawnInfo.Player.ZoneNormalCaverns)
             {
 
-                return baseChance * 1.12f;
+                return baseChance * 1.07f;
             }
 
             return 0f;
